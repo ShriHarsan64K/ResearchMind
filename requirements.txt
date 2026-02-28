@@ -1,0 +1,26 @@
+# ResearchMind v2.0 — Requirements
+# Team NextStrike | AMD Slingshot 2026
+# Install: pip install -r requirements.txt
+
+# ── Core AI ───────────────────────────────────────────────────────────────────
+ollama                          # Local LLaMA 3 inference
+langchain                       # LLM orchestration
+langchain-community             # LangChain community tools
+
+# ── PDF Processing ────────────────────────────────────────────────────────────
+pymupdf                         # PDF text extraction (fitz)
+pytesseract                     # OCR for scanned PDFs
+
+# ── Vector Store & Embeddings ────────────────────────────────────────────────
+chromadb                        # Local vector database
+sentence-transformers           # Local embeddings (all-MiniLM-L6-v2)
+
+# ── UI ────────────────────────────────────────────────────────────────────────
+streamlit                       # Web UI framework
+
+# ── Utilities ────────────────────────────────────────────────────────────────
+python-dotenv                   # Environment variables
+tiktoken                        # Token counting
+
+# ── Image (for logo generation only) ─────────────────────────────────────────
+pillow                          # PIL image processing
