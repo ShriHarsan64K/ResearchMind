@@ -1,0 +1,10 @@
+@"
+.env
+data/vectordb/
+data/*.pdf
+__pycache__/
+utils/__pycache__/
+*.pyc
+.DS_Store
+venv/
+"@ | Out-File -FilePath .gitignore -Encoding utf8
